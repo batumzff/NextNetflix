@@ -10,7 +10,7 @@ function classNames(...classes) {
 }
 
 const Navbar = () => {
-  const { currentUser } = useAuthContext();
+  const { currentUser, logOut } = useAuthContext();
   const [showBackground, setShowBackground] = useState(false);
 
   useEffect(() => {

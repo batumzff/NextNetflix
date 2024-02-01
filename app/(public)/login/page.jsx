@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 const Login = () => {
-  const { signIn, forgotPassword } = useAuthContext();
+  const { signIn, forgotPassword, signUpProvider } = useAuthContext();
   const [info, setInfo] = useState({
     email: "",
     password: "",
@@ -71,6 +71,7 @@ const Login = () => {
               <button
                 className="flex justify-between text-center items-center btn-danger"
                 type="button"
+                onClick={signUpProvider}
               >
                 Continue with Google
                 <GoogleIcon color="currentColor" />
