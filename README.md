@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About the Project
 
-## Getting Started
+This project is a Netflix clone created using Next.js. You can register or log in to the web application using your own email or Google account. Additionally, there is a "Forgot Password" button that allows you to reset your password by receiving an email to your registered email account. The project utilizes the TMDB API to fetch a list of popular, top-rated, and upcoming movies, presenting users with their posters, titles, and descriptions.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Demo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+[NextNetflix](https://next-netflix-self.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- User registration via email or Google account.
+- Password reset functionality.
+- Pagination for smooth transitions between pages.
+- A list of popular, top-rated and upcoming films.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- React
+- Next.js
+- React-Router-Dom
+- [TMDB API](https://www.themoviedb.org/) for movies data
+- [Firebase](https://firebase.google.com/) for register and login processes
+- Styling with [Tailwind](https://tailwindcss.com/) and CSS 
+- [React-Toastify](https://fkhadra.github.io/react-toastify/introduction/) for alert
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+- Register or log in with your email or Google account.
+- Discover information about popular, top-rated and upcoming films.
+- Access detailed information and reviews for each item.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ## Compatibility
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The project is compatible with both wide-screen computers and mobile devices.
+
+## Acknowledgments
+
+Movies data provided by [TMDB](https://www.themoviedb.org/)
