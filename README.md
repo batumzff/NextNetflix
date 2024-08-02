@@ -1,6 +1,6 @@
 ## About the Project
 
-[LIVE](https://github.com/batumzff/NextNetflix/blob/main/nextNetFlix.gif)
+![Checkout](https://github.com/batumzff/NextNetflix/blob/main/nextNetFlix.gif)
 
 This project is a Netflix clone created using Next.js. You can register or log in to the web application using your own email or Google account. Additionally, there is a "Forgot Password" button that allows you to reset your password by receiving an email to your registered email account. The project utilizes the TMDB API to fetch a list of popular, top-rated, and upcoming movies, presenting users with their posters, titles, and descriptions.
 
